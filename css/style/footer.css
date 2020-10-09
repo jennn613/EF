@@ -1,0 +1,139 @@
+/* footer */
+
+#footbox {
+  width: 100%;
+  height: 470px;
+  background-color: grey;
+  padding: 40px 210px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.footbox_wrap {
+  width: 1180px;
+  height: 315px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.footbox_wrap_left {
+  width: 440px;
+  height: 315px;
+  margin-right: 320px;
+}
+
+.footbox_logo {
+  width: 70px;
+  height: 54px;
+  background-color: lightskyblue;
+  margin-bottom: 30px;
+}
+
+.footbox_info_box {
+  width: 440px;
+  height: 56px;
+  background-color: lightgrey;
+  margin-bottom: 28px;
+}
+
+.footbox_wrap_right {
+  width: 420px;
+  height: 186px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footbox_menu_about {
+  width: 80px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footbox_menu_about li {
+  display: block;
+  width: 100%;
+  height: 12px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.footbox_menu_about li:first-child {
+  margin-bottom: 20px;
+}
+
+.footbox_menu_discover {
+  width: 200px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footbox_menu_discover li {
+  display: block;
+  width: 100%;
+  height: 12px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.footbox_menu_discover li:first-child {
+  margin-bottom: 20px;
+}
+
+.footbox_wrap_bottom {
+  width: 1340px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footbox_country {
+  width: 125px;
+  height: 30px;
+  display: flex;
+}
+
+.footbox_country_icon {
+  width: 47px;
+  height: 30px;
+  background-color: lightskyblue;
+  margin-right: 11px;
+}
+
+.footbox_country_name {
+  width: 67px;
+  height: 30px;
+  background-color: lightgray;
+}
+
+.footbox_usage {
+  width: 450px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.footbox_usage_privacy {
+  width: 82px;
+  height: 20px;
+  background-color: lightgrey;
+  margin-right: 30px;
+}
+
+.footbox_usage_cookies {
+  width: 42px;
+  height: 20px;
+  background-color: lightgrey;
+  margin-right: 30px;
+}
+
+.footbox_usage_copyrights {
+  width: 266px;
+  height: 20px;
+  background-color: lightgrey;
+}
