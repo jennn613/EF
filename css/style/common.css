@@ -26,5 +26,12 @@ button {
   overflow: hidden;
 }
 
+.icon_yellow_bar {
+  width: 7px;
+  height: 30px;
+  background-color: lightskyblue;
+  margin-right: 20px;
+}
+
 :root {
 }

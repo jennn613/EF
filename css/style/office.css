@@ -79,17 +79,10 @@
   display: flex;
 }
 
-.section_title_icon {
-  width: 7px;
-  height: 30px;
-  background-color: lightskyblue;
-}
-
 .section_title {
   width: 160px;
   height: 30px;
   background-color: lightskyblue;
-  margin-left: 20px;
 }
 
 .section_office_box {
