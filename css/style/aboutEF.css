@@ -1,26 +1,26 @@
 /* header */
 
-.header_background_img {
+.about_header_background_img {
   width: 100%;
   height: 560px;
   background-color: lightblue;
 }
 
-.header_background_img_text {
+.about_header_background_img_text {
   width: 345px;
   height: 230px;
-  background-color: white;
+  background-color: var(--color-white);
   margin: 155px 210px;
 }
 
-.header_background_img_text > span {
+.about_header_background_img_text > span {
   display: block;
   margin-bottom: 25px;
 }
 
 /* nav */
 
-#nav_box {
+#about_nav_box {
   width: 100%;
   height: 110px;
   padding: 40px 210px;
@@ -28,19 +28,19 @@
   background-color: lightgray;
 }
 
-.nav_box_menu_wrap {
+.about_nav_box_menu_wrap {
   width: 770px;
   height: 30px;
 }
 
-.nav_box_menu_wrap ul {
+.about_nav_box_menu_wrap ul {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.nav_box_menu_wrap li {
+.about_nav_box_menu_wrap li {
   display: block;
   width: 130px;
   height: 100%;
@@ -50,7 +50,7 @@
 }
 /* section */
 
-.section_box {
+.about_section_box {
   width: 100%;
   height: auto;
   display: flex;
@@ -177,7 +177,7 @@
   position: absolute;
   right: 30px;
   bottom: 30px;
-  color: white;
+  color: var(--color-white);
 }
 
 .section_join {

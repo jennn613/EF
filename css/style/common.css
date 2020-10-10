@@ -9,6 +9,11 @@
 
 body {
   width: 1600px;
+  font-family: "NanumSquareR", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 li ul {
@@ -16,7 +21,9 @@ li ul {
 }
 
 button {
+  cursor: pointer;
   border: none;
+  outline: none;
 }
 
 .hidden {
@@ -29,9 +36,87 @@ button {
 .icon_yellow_bar {
   width: 7px;
   height: 30px;
-  background-color: lightskyblue;
+  background-color: var(--color-yellow);
   margin-right: 20px;
 }
 
+.nav_line {
+  width: 1398px;
+  height: 2px;
+  background-color: var(--color-black);
+  position: absolute;
+  bottom: 0;
+}
+
+.menu_line {
+  width: 1190px;
+  height: 2px;
+  background-color: var(--color-black);
+  position: absolute;
+  bottom: 0;
+  margin-left: 210px;
+}
+
+.icon_view_more {
+  width: 50px;
+  height: 20px;
+  color: var(--color-grey);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* global */
+
 :root {
+  --color-white: #ffffff;
+  --color-dark-white: #d3d3d3;
+  --color-grey: #777777;
+  --color-black: #383838;
+  --color-yellow: #ffc200;
+  --color-lightblue: #17b2e2;
+  --color-blue: #1c819e;
+  --color-dark-blue: #005874;
+
+  /*font size*/
+  --font-h1: 36px;
+  --font-h2: 32px;
+  --font-h3: 30px;
+  --font-large: 24px;
+  --font-medium: 20px;
+  --font-regular: 18px;
+  --font-small: 14px;
+  --font-micro: 12px;
+
+  /* font weight */
+  --weight-extrabold: 800;
+  --weight-bold: 600;
+  --weight-regular: 400;
+  --weight-light: 300;
+}
+
+/* Typography */
+
+h1 {
+  font-size: var(--font-h1);
+  font-weight: var(--weight-extrabold);
+  color: var(--color-black);
+}
+
+h2 {
+  font-size: var(--font-h2);
+  font-weight: var(--weight-extrabold);
+  color: var(--color-black);
+}
+
+h3 {
+  font-size: var(--font-h3);
+  font-weight: var(--weight-extrabold);
+  color: var(--color-black);
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0px;
 }
