@@ -7,6 +7,10 @@
 @import "../style/review.css";
 @import "../style/office.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 1600px;
   font-family: "NanumSquareR", sans-serif;
@@ -57,6 +61,15 @@ button {
   margin-left: 210px;
 }
 
+.review_line {
+  width: 1180px;
+  height: 1px;
+  background-color: var(--color-black);
+  position: absolute;
+  bottom: 0;
+  left: 105px;
+}
+
 .icon_view_more {
   width: 50px;
   height: 20px;
@@ -70,6 +83,7 @@ button {
 :root {
   --color-white: #ffffff;
   --color-dark-white: #d3d3d3;
+  --color-lightgrey: #d3d3d3;
   --color-grey: #777777;
   --color-black: #383838;
   --color-yellow: #ffc200;
@@ -78,11 +92,11 @@ button {
   --color-dark-blue: #005874;
 
   /*font size*/
-  --font-h1: 36px;
-  --font-h2: 32px;
-  --font-h3: 30px;
-  --font-large: 24px;
-  --font-medium: 20px;
+  --font-text: 36px;
+  --font-h1: 32px;
+  --font-h2: 30px;
+  --font-h3: 24px;
+  --font-large: 20px;
   --font-regular: 18px;
   --font-small: 14px;
   --font-micro: 12px;
