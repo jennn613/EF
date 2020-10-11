@@ -41,16 +41,16 @@
   align-items: center;
 }
 
-.office_navbox_wrap > li {
+.office_navbox_wrap li {
   display: block;
 }
 
-.office_navbox_wrap > li:first-child {
+.office_navbox_wrap li:first-child {
   width: 67px;
   margin-right: 70px;
 }
 
-.office_navbox_wrap > li:last-child {
+.office_navbox_wrap li:last-child {
   width: 124px;
 }
 

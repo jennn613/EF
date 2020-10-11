@@ -21,7 +21,7 @@
   display: flex;
 }
 
-.program_navbox_wrap > li {
+.program_navbox_wrap li {
   display: block;
   margin-right: 50px;
 }
