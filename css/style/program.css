@@ -63,7 +63,7 @@
   width: 180px;
   height: 30px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 80px;
 }
 
@@ -142,7 +142,7 @@
   width: 228px;
   height: 30px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 135px;
   margin-left: 210px;
 }

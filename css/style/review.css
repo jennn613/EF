@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-.review_nav_box_menu_wrap ul {
+.review_nav_box_menu_wrap > ul {
   height: 30px;
   width: 578px;
   display: flex;
@@ -54,6 +54,7 @@
   height: 30px;
   background-color: white;
   display: flex;
+  justify-content: center;
   margin-left: 210px;
 }
 
@@ -112,6 +113,7 @@
   height: 30px;
   background-color: white;
   display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 
@@ -217,7 +219,6 @@
   height: 28px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .section_review_page > ol {
