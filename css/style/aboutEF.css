@@ -195,10 +195,7 @@
   width: 114px;
   height: 30px;
   display: flex;
-}
-
-.join_title {
-  background-color: white;
+  align-items: center;
 }
 
 .join_btn_wrap {
