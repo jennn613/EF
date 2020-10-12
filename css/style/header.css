@@ -23,18 +23,21 @@
   width: 35px;
   height: 40px;
   background-color: lightskyblue;
+  cursor: pointer;
 }
 
 .headbox_logo {
   width: 86px;
   height: 51px;
   background-color: lightskyblue;
+  cursor: pointer;
 }
 
 .headbox_menu {
   width: 49px;
   height: 42px;
   background-color: lightskyblue;
+  cursor: pointer;
 }
 
 .headbox_underline {

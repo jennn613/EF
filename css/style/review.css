@@ -188,6 +188,10 @@
   margin-bottom: 40px;
 }
 
+.section_review_text_info > span {
+  margin-right: 50px;
+}
+
 .section_review_text_title {
   width: 393px;
   height: 25px;

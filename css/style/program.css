@@ -160,18 +160,18 @@
   align-items: center;
 }
 
-.icon_square_chevron_left {
+.icon_chevron_left {
   width: 45px;
   height: 69px;
   background-color: grey;
   margin-right: 68px;
 }
 
-.icon_square_chevron_right {
+.icon_chevron_right {
   width: 45px;
   height: 69px;
   background-color: grey;
-  margin-left: 68px;
+  margin-right: 68px;
 }
 
 .destinations_box {
