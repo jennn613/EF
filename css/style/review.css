@@ -89,14 +89,16 @@
 .section_reports_article > img {
   width: 100%;
   height: 316px;
+  background-color: lightblue;
 }
 
-.section_reports_article > h3 {
+.section_reports_article > span {
   display: block;
   width: 342px;
   height: 50px;
   padding-top: 15px;
   box-sizing: border-box;
+
   text-align: center;
 }
 
@@ -126,22 +128,24 @@
   width: 315px;
   height: 57px;
   background-color: white;
-  display: flex;
   border: 4px solid var(--color-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.section_review_search_box_text {
-  margin-top: 20px;
-  margin-left: 81px;
+.section_review_search_box_text > span {
+  display: block;
+  width: auto;
+  height: auto;
   color: var(--color-grey);
+  margin-right: 40px;
 }
 
 .icon_search {
   width: 39px;
   height: 36px;
   background-color: lightblue;
-  margin-top: 10px;
-  margin-right: 30px;
 }
 
 .section_review_box_article_wrap {
@@ -168,7 +172,7 @@
 .section_review_column > img {
   width: 320px;
   height: 190px;
-  background-color: lightgrey;
+  background-color: lightblue;
   margin-right: 135px;
 }
 
@@ -230,15 +234,31 @@
   justify-content: space-between;
 }
 
-.section_review_page > ol {
+.section_review_page ol {
+  width: 140px;
+  height: 30px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+.section_review_page li {
+  width: 20px;
+  display: block;
+  border: 1px solid var(--color-lightgrey);
+  cursor: pointer;
 }
 
 .icon_btn_post {
   width: 123px;
   height: 50px;
   background-color: var(--color-blue);
-  padding-top: 14px;
-  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_btn_post > span {
+  color: white;
+  font-size: 22px;
+  font-weight: var(--weight-bold);
 }

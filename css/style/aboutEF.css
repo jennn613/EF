@@ -152,6 +152,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  background-color: grey;
 }
 
 .section_news_box_bottom {
@@ -187,7 +188,7 @@
 
 .section_join {
   width: 100%;
-  height: 700px;
+  height: 1000px;
   background-color: lightgrey;
   margin-top: 150px;
   padding-top: 110px;
