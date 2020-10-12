@@ -274,7 +274,7 @@
   border: 1px solid lightgrey;
 }
 .section_main_news_box_textbox > span {
-  width: atuo;
+  width: auto;
   height: auto;
   display: block;
   margin-bottom: 15px;
