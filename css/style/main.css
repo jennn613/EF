@@ -71,7 +71,7 @@
 .main_programs_box > img {
   width: 100%;
   height: 240px;
-  background-color: lightskyblue;
+  background-color: lightblue;
   margin-bottom: 30px;
 }
 
@@ -89,21 +89,58 @@
 .section_intro_box {
   width: 100%;
   height: 670px;
-  background-color: grey;
+  background-color: white;
   display: flex;
 }
 
 .section_intro_box_img {
   width: 850px;
   height: 670px;
-  background-color: salmon;
+  background-color: white;
+}
+
+.section_intro_box_img > img:first-child {
+  float: left;
+  width: 100%;
+  height: 465px;
+  background-color: lightblue;
+}
+
+.section_intro_box_img > img:nth-child(2) {
+  float: left;
+  width: 386px;
+  height: 205px;
+  background-color: lightskyblue;
+}
+.section_intro_box_img > img:nth-child(3) {
+  float: left;
+  width: 242px;
+  height: 205px;
+  background-color: lightblue;
+}
+.section_intro_box_img > img:last-child {
+  float: left;
+  width: 222px;
+  height: 205px;
+  background-color: lightskyblue;
 }
 
 .section_intro_box_text {
   width: 750px;
   height: 670px;
   background-color: var(--color-blue);
+  padding-left: 230px;
 }
+
+.section_intro_box_text > h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section_intro_box_text > p {
+  margin-bottom: 30px;
+}
+
 /* experience */
 .section_exp_wrap {
   width: 100%;
