@@ -1,4 +1,4 @@
-@import "../src/reset.css";
+@import "../base/reset.css";
 @import "../style/header.css";
 @import "../style/footer.css";
 @import "../style/main.css";
@@ -12,7 +12,6 @@
 }
 
 body {
-  width: 1600px;
   font-family: "NanumSquareR", sans-serif;
   background-color: white;
 }
