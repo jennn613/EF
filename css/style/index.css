@@ -15,14 +15,14 @@
   padding-top: 200px;
 }
 
-.index_title > span {
+.index_title > a > span {
   font-size: 20px;
   font-style: italic;
   font-weight: var(--weight-bold);
   color: var(--color-blue);
 }
 
-.index_title > span:first-child {
+.index_title > a > span:first-child {
   font-size: 100px;
   font-style: italic;
   font-weight: var(--weight-extrabold);
@@ -38,7 +38,6 @@
   margin-top: 200px;
   display: flex;
   justify-content: center;
-
   align-items: center;
 }
 
