@@ -19,14 +19,6 @@ body {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-}
-
-li ul {
-  list-style: none;
-}
-
 button {
   cursor: pointer;
   border: none;
@@ -129,6 +121,10 @@ button {
   --weight-bold: 600;
   --weight-regular: 400;
   --weight-light: 300;
+
+  /* box shadow */
+  /* box-shadow: [h-offset] [v-offset] [blur] [spread] [color] (inset); */
+  --basic-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Typography */
