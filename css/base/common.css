@@ -1,5 +1,4 @@
 @import "../base/reset.css";
-@import "../style/index.css";
 @import "../style/header.css";
 @import "../style/footer.css";
 @import "../style/main.css";
@@ -7,16 +6,16 @@
 @import "../style/program.css";
 @import "../style/review.css";
 @import "../style/office.css";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  max-width: 1600px;
   font-family: "NanumSquareR", sans-serif;
   background-color: white;
-  width: 1600px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -88,14 +87,12 @@ button {
   width: 25px;
   height: 28px;
   background-color: grey;
-  cursor: pointer;
 }
 
 .icon_next {
   width: 25px;
   height: 28px;
   background-color: grey;
-  cursor: pointer;
 }
 
 .icon_airplane {
@@ -159,4 +156,5 @@ p {
   font-weight: var(--weight-regular);
   color: var(--color-black);
   margin: 4px 0px;
+  line-height: 180%;
 }
