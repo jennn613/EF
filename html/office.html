@@ -24,10 +24,8 @@
         <div id="office_navbox">
           <div class="office_navbox_wrap">
             <div class="office_nav_left">
-              <div class="icon_location"></div>
-              <div class="office_nav_offices">
-                <span class="hidden">Offices</span>
-              </div>
+              <i class="fas fa-map-marker-alt"></i>
+                <span>Offices</span>
             </div>
             <ul>
               <li><a href="#">Korea</a></li>
@@ -48,52 +46,55 @@
 
             <div class="office_box_menu_wrap">
               <div class="office_box_menu">
-                <span class="hidden">Seoul</span>
+                <span>Seoul</span>
               </div>
               <div class="office_box_menu">
-                <span class="hidden">Busan</span>
+                <span>Busan</span>
               </div>
               <div class="office_box_menu">
-                <span class="hidden">Gwangju</span>
+                <span>Gwangju</span>
               </div>
             </div>
             <div class="section_office_box">
               <div class="office_box">
                 <div class="office_box_city">
-                  <span class="hidden">Seoul</span>
+                  <span>&#60; Seoul Office &#62;</span>
                 </div>
-                <div class="office_box_map"></div>
+                <div class="office_box_map">
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1603071681022" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>
+
                 <div class="office_box_btn_wrap">
                   <button class="office_box_btn">
-                    <div class="office_box_btn_icon"></div>
+                    <i class="fas fa-phone-alt"></i>
                     <span>number</span>
                   </button>
                   <button class="office_box_btn">
-                    <div class="office_box_btn_icon"></div>
+                    <i class="fas fa-book-open"></i>
                     <span>brochure</span>
                   </button>
                 </div>
               </div>
               <div class="office_box_info">
-                <div class="office_info_adress">
-                  <span class="hidden">Address</span>
-                  <address class="hidden">
+                <div class="office_info_address">
+                  <span>Address</span>
+                  <address>
                     4th floor, B dong, 465, Gangnam-daero, <br />
                     Seocho-gu, Seoul, Republic of Korea<br />
                     (Gangnam station entrance 10)
                   </address>
                 </div>
                 <div class="office_info_contact">
-                  <span class="hidden">Contact us</span>
-                  <p class="hidden">
+                  <span>Contact us</span>
+                  <p>
                     1644-9644 | 02-6979-960<br />
                     Fax 02-6959-2708<br />
                     Facebook Messenger EFKorea
                   </p>
                 </div>
                 <div class="office_info_open">
-                  <span class="hidden">Opening hours</span>
-                  <p class="hidden">
+                  <span>Opening hours</span>
+                  <p>
                     1644-9644 | 02-6979-9600<br />
                     Fax 02-6959-2708<br />
                     Facebook Messenger EFKorea<br />
@@ -101,7 +102,7 @@
                 </div>
 
                 <div class="office_info_sns">
-                  <span class="hidden">Follow us</span>
+                  <span>Follow us</span>
                   <div class="office_info_sns_icon">
                     <div class="office_info_sns_linkedin"></div>
                     <div class="office_info_sns_facebook"></div>
@@ -180,5 +181,20 @@
       
       </footer>
     </div>
+    <script src="https://kit.fontawesome.com/6015827faa.js" crossorigin="anonymous"></script>
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1603071681022",
+		"key" : "22ig7",
+		"mapWidth" : "591",
+		"mapHeight" : "638"
+	}).render();
+</script>
   </body>
 </html>
