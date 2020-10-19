@@ -13,10 +13,24 @@
 }
 
 body {
+<<<<<<< Updated upstream:css/base/common.css
   max-width: 1600px;
   font-family: "NanumSquareR", sans-serif;
   background-color: white;
   margin: 0 auto;
+=======
+  width: 1600px;
+  background-color: white;
+  font-family: "NanumSquare", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li ul {
+  list-style: none;
+>>>>>>> Stashed changes:css/style/common.css
 }
 
 button {
@@ -118,7 +132,7 @@ button {
 
   /* font weight */
   --weight-extrabold: 800;
-  --weight-bold: 600;
+  --weight-bold: 700;
   --weight-regular: 400;
   --weight-light: 300;
 
