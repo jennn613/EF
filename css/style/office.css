@@ -157,7 +157,8 @@
   padding: 21px 42px;
   box-sizing: border-box;
   background-color: white;
-  border-radius: 24px;
+  background-image: linear-gradient(45deg, #17b2e2 30%, #005874 20%);
+  border-radius: 26px;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -170,13 +171,13 @@
 
 .office_box_btn > i {
   margin-right: 20px;
-  color: #777777;
+  color: var(--color-white);
 }
 
 .office_box_btn > span {
   width: 80px;
   height: 20px;
-  background-color: white;
+  color: var(--color-white);
 }
 
 .office_box_info {

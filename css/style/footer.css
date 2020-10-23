@@ -34,11 +34,7 @@
 
 .footbox_info_box {
   width: 100%;
-<<<<<<< Updated upstream
   height: auto;
-=======
-  height: 56px;
->>>>>>> Stashed changes
   margin-bottom: 28px;
 }
 
@@ -58,10 +54,6 @@
   height: auto;
   display: flex;
   flex-direction: column;
-<<<<<<< Updated upstream
-  margin-top: 70px;
-=======
->>>>>>> Stashed changes
 }
 
 .footbox_menu_about li {
@@ -73,6 +65,7 @@
 
 .footbox_menu_about li:first-child {
   margin-bottom: 20px;
+  font-weight: var(--weight-extrabold);
 }
 
 .footbox_menu_discover {
@@ -80,10 +73,6 @@
   height: 186px;
   display: flex;
   flex-direction: column;
-<<<<<<< Updated upstream
-  margin-top: 70px;
-=======
->>>>>>> Stashed changes
 }
 
 .footbox_menu_discover li {
@@ -94,6 +83,7 @@
 }
 
 .footbox_menu_discover li:first-child {
+  font-weight: var(--weight-extrabold);
   margin-bottom: 20px;
 }
 
@@ -118,11 +108,7 @@
 }
 
 .footbox_country_name {
-<<<<<<< Updated upstream
   width: 180px;
-=======
-  width: 100px;
->>>>>>> Stashed changes
   height: 100%;
   display: flex;
   align-items: center;
