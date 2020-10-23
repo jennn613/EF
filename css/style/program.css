@@ -19,16 +19,17 @@
   height: 30px;
   position: absolute;
   left: 210px;
-  bottom: 2px;
+  bottom: 24px;
 }
 
 .program_navbox_wrap > ul {
   display: flex;
 }
 
-.program_navbox_wrap li {
+.program_navbox_wrap ul > li {
   display: block;
   margin-right: 50px;
+  font-weight: var(--weight-extrabold);
 }
 
 .section_article {
@@ -37,26 +38,29 @@
   padding-top: 90px;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .section_article_box {
   width: 1180px;
   height: 420px;
   text-align: center;
-  background-color: lightskyblue;
+  background-image: url("../src/img/program_article.png");
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .section_article_box > span {
   display: block;
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: var(--weight-extrabold);
   font-size: var(--font-h3);
 }
 
 .section_article_box > p {
-  font-weight: var(--weight-regular);
+  font-weight: var(--weight-bold);
   font-size: var(--font-medium);
+  line-height: 240%;
 }
 
 .section_program {
@@ -112,17 +116,14 @@
 }
 
 .section_program_box_text > span {
-  display: block;
-  width: 210px;
-  height: 20px;
-  background-color: lightgrey;
+  font-size: var(--font-large);
+  font-weight: var(--weight-extrabold);
+
   margin-bottom: 40px;
 }
 
 .section_program_box_text > p {
-  width: 440px;
-  height: 105px;
-  background-color: lightgrey;
+  font-weight: var(--weight-bold);
   margin-bottom: 40px;
 }
 
@@ -140,10 +141,7 @@
 }
 
 .section_program_box_bottom > p {
-  display: block;
-  width: 336px;
-  height: 100%;
-  background-color: lightgrey;
+  font-weight: var(--weight-regular);
 }
 
 .section_program_destinations {
@@ -178,15 +176,29 @@
 .program_icon_chevron_left {
   width: 45px;
   height: 69px;
-  background-color: grey;
+  background-color: var(--color-grey);
   margin-right: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .program_icon_chevron_right {
   width: 45px;
   height: 69px;
-  background-color: grey;
+  background-color: var(--color-grey);
   margin-right: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.program_icon_chevron_left > i,
+.program_icon_chevron_right > i {
+  color: var(--color-white);
+  font-size: var(--font-h2);
 }
 
 .destinations_box {
@@ -196,7 +208,12 @@
   box-shadow: var(--basic-shadow);
 }
 
-.destinations_box > img {
+.destinations_box > a {
+  width: 100%;
+  height: 100%;
+}
+
+.destinations_box > a > img {
   width: 100%;
   height: 315px;
   background-color: lightskyblue;
