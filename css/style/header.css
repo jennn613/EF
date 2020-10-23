@@ -22,6 +22,18 @@
   box-sizing: border-box;
 }
 
+.headbox_box_review {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .headbox_home {
   width: 24px;
   height: 40px;
