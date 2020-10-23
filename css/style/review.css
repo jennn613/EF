@@ -48,7 +48,7 @@
   justify-content: space-between;
   background-color: white;
   margin-left: 210px;
-  font-size: var(--font-medium);
+  font-size: var(--font-large);
   font-weight: var(--weight-bold);
 }
 
@@ -57,7 +57,7 @@
   height: auto;
   margin-bottom: 42px;
 
-  font-size: var(--font-large);
+  font-size: var(--font-h3);
   font-weight: var(--weight-extrabold);
 }
 
@@ -99,6 +99,7 @@
   background-color: white;
   margin-right: 77px;
   box-shadow: var(--basic-shadow);
+  cursor: pointer;
 }
 
 .section_reports_article > img {
@@ -185,11 +186,17 @@
   position: relative;
 }
 
-.section_review_column > img {
+.section_review_img {
   width: 320px;
   height: 190px;
   background-color: lightblue;
   margin-right: 135px;
+  overflow: hidden;
+}
+
+.section_review_img > img {
+  width: 100%;
+  height: auto;
 }
 
 .section_review_text {
@@ -203,35 +210,62 @@
 .section_review_text_info {
   width: 405px;
   height: 15px;
-  background-color: lightgrey;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .section_review_text_info > span {
-  margin-right: 50px;
+  display: block;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-bold);
+  margin-right: 60px;
+  position: relative;
+}
+.section_review_text_info > span::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: var(--color-black);
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: -30px;
+  margin: auto;
+}
+
+.section_review_text_info > span:last-of-type::after {
+  display: none;
 }
 
 .section_review_text_title {
-  width: 393px;
-  height: 25px;
-  background-color: lightgrey;
-  margin-bottom: 30px;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.section_review_text_title > p {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
 }
 
 .section_review_text_article {
   width: 630px;
   height: 71px;
-  background-color: lightgrey;
+}
+
+.section_review_text_article > p {
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
 }
 
 .section_review_text_date {
-  width: 63px;
-  height: 12px;
-  background-color: lightgrey;
+  width: auto;
+  height: auto;
   position: absolute;
   right: 0px;
   bottom: -20px;
+  font-weight: var(--weight-regular);
 }
 
 .section_review_bottom {
@@ -262,6 +296,7 @@
   display: block;
   border: 1px solid var(--color-lightgrey);
   cursor: pointer;
+  line-height: 30px;
 }
 
 .icon_btn_post {
@@ -271,12 +306,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .icon_btn_post > span {
   color: white;
   font-size: 22px;
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-extrabold);
 }
 
 .section_reports_article:hover {

@@ -30,6 +30,7 @@
   display: block;
   margin-right: 50px;
   font-weight: var(--weight-extrabold);
+  font-size: var(--font-large);
 }
 
 .section_article {

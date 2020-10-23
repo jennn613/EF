@@ -80,12 +80,22 @@ button {
   width: 25px;
   height: 28px;
   background-color: grey;
+  color: white;
+  padding-top: 7px;
+  padding-left: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .icon_next {
   width: 25px;
   height: 28px;
   background-color: grey;
+  color: white;
+  padding-top: 7px;
+  padding-left: 9px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .icon_airplane {
