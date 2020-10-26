@@ -11,6 +11,7 @@ const toggleBtn = document.querySelector('.headbox_menu-btn');
 const headerMenu = document.querySelector('.headbox_menu');
 toggleBtn.addEventListener('click', ()=> {
   var hasOpen = headerMenu.classList.contains('open');
+  
   if(hasOpen){
     // 
     headerMenu.classList.remove('open');
