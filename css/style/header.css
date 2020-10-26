@@ -68,10 +68,10 @@
 
 .headbox_menu {
   width: 1600px;
-  height: 150px;
-  /* overflow: hidden; */
-  /* opacity: 0; */
+  height: 0;
   background-color: white;
+  font-size: 20px;
+  font-weight: var(--weight-bold);
   position: absolute;
   top: 70px;
   right: 0;
@@ -79,21 +79,20 @@
   box-sizing: border-box;
   display: none;
   z-index: 1;
-  font-size: 20px;
-  font-weight: var(--weight-bold);
+
+  overflow-y: hidden;
+  transition: all 600ms ease-in-out;
 }
 
 .header_menu__item:hover {
-  color: var(--color-dark-blue);
+  text-decoration: underline;
 }
 
 .headbox_menu.open {
-  display: flex;
+  height: 150px;
+  /* display: flex; */
   justify-content: space-around;
-  /* height: 150px; */
   opacity: 1;
-  animation: ease-in-out;
-  transition: all 1s ease-in-out;
 }
 
 .headbox_underline_b {

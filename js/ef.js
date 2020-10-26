@@ -7,8 +7,22 @@
 // })
 
 
-const toggelBtn = document.querySelector('.headbox_menu-btn');
+const toggleBtn = document.querySelector('.headbox_menu-btn');
 const headerMenu = document.querySelector('.headbox_menu');
-toggelBtn.addEventListener('click', ()=> {
-  headerMenu.classList.toggle('open');
+toggleBtn.addEventListener('click', ()=> {
+  var hasOpen = headerMenu.classList.contains('open');
+  if(hasOpen){
+    // 
+    headerMenu.classList.remove('open');
+    setTimeout(function(){
+      headerMenu.style="display:none;";
+    }, 10)
+  }else{
+    // open 없을경우
+    headerMenu.style='display:flex;'; 
+    setTimeout(function(){
+      headerMenu.classList.add('open');
+    },10);
+  }
+ 
 });
