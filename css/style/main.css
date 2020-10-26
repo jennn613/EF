@@ -153,8 +153,8 @@
 }
 
 .section_intro_box_img_map > img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .section_intro_box_img_olympic {
@@ -365,6 +365,7 @@
   height: 100%;
   background-color: white;
   box-shadow: var(--basic-shadow);
+  cursor: pointer;
 }
 
 .section_main_news_box > img {

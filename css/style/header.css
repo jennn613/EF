@@ -71,21 +71,20 @@
   height: 150px;
   /* overflow: hidden; */
   /* opacity: 0; */
-  background-color: aliceblue;
+  background-color: white;
   position: absolute;
   top: 70px;
   right: 0;
   padding-top: 50px;
   box-sizing: border-box;
   display: none;
-  transition: all 300mm ease-in-out;
   z-index: 1;
+  font-size: 20px;
+  font-weight: var(--weight-bold);
 }
 
-.header_menu__item {
-  font-size: (--font-h2);
-  font-weight: (--weight-extrabold);
-  color: var(--color-black);
+.header_menu__item:hover {
+  color: var(--color-dark-blue);
 }
 
 .headbox_menu.open {
@@ -93,6 +92,8 @@
   justify-content: space-around;
   /* height: 150px; */
   opacity: 1;
+  animation: ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .headbox_underline_b {
